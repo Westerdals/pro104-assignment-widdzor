@@ -1,6 +1,6 @@
 # Arbeidskrav webprosjekt
 
-## Utvikling av webapplikasjoner i team
+### Utvikling av webapplikasjoner i team
 
 #### Innlevering 10.mars 24:00
 
