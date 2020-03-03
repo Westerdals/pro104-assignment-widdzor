@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Planner</title>
+    <meta charset="UTF-8" lang="en">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<script src="adduser.js"></script>
+
+    <h1 id="title_top">Work Planner</h1>
+
+    <div class="container">
+        <div class="section section_users">
+			<h2 class="title_sections">USERS</h2>
+			<form class="add_entry" onsubmit="addUser(event)">
+				<div id="entry_username">
+					<label>Username:
+						<div><input name="username" placeholder="username" /></div>
+					</label>
+				</div>
+				<div id="entry_submit">
+					<div><input type="submit" name="submit" value="ADD USER" /></div>	
+				</div>
+			</form>
+        </div>
+        <div class="section section_tasks">
+			<h2 class="title_sections">TASKS</h2>
+        </div>
+        <div class="section section_progress">
+			<h2 class="title_sections">PROGRESS</h2>
+        </div>
+    </div>
+</body>
+
+</html>

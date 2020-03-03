@@ -1,0 +1,50 @@
+body
+{
+	background-color: #444444;
+}
+#title_top
+{
+	color: #00ff66;
+    
+    text-align: center;
+}
+
+.container
+{
+	display: grid;
+	grid-template-columns: 3;
+	grid-template-rows: 1;
+	
+	grid-column-gap: 8px;
+	
+	grid-auto-columns: 1fr;
+	grid-auto-flow: column;
+}
+
+.add_entry
+{
+	text-align: center;
+}
+.title_sections
+{
+	text-align: center;
+}
+.section
+{
+	background-color: #666666;
+	border: 1px solid black;
+
+	width: 100%;
+}
+.section_users
+{
+	grid-column: 1;	
+}
+.section_tasks
+{
+	grid-column: 2;
+}
+.section_progress
+{
+	grid-column: 3;
+}
