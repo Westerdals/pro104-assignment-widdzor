@@ -1,17 +1,19 @@
-function addUser()
+function addMember(event)
 {
-	const name = document.querySelector("[name='username']").value;
+	event.preventDefault();
 
-	const users = JSON.parse(window.localStorage.getItem("users")) || [];
+	const name = document.querySelector("[name='name']").value;
+
+	const memberList = JSON.parse(window.localStorage.getItem("members")) || [];
 	
-	const user =
+	const assignments = [];
+	const member =
 		{
-			'username': name
+			'member': name,
+			'assignments': assignments
 		};
 
-	users.push(user);
+	memberList.push(member);
 
-	window.localStorage.setItem('users', JSON.stringify(users));
-
-	alert(JSON.parse(window.localStorage.getItem("users").'username'));
+	window.localStorage.setItem('members', JSON.stringify(memberList));
 }

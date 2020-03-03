@@ -3,27 +3,27 @@
 <html>
 
 <head>
-    <title>Planner</title>
+    <title>Task Planner</title>
     <meta charset="UTF-8" lang="en">
     <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<script src="adduser.js"></script>
+	<script src="addmember.js"></script>
 
-    <h1 id="title_top">Work Planner</h1>
+    <h1 id="title_top">Task Planner</h1>
 
     <div class="container">
         <div class="section section_users">
 			<h2 class="title_sections">USERS</h2>
-			<form class="add_entry" onsubmit="addUser(event)">
+			<form class="add_entry" onsubmit="addMember(event);this.reset()">
 				<div id="entry_username">
-					<label>Username:
-						<div><input name="username" placeholder="username" /></div>
+					<label>Name:
+						<div><input name="name" placeholder="Oluf Nordlænning" /></div>
 					</label>
 				</div>
 				<div id="entry_submit">
-					<div><input type="submit" name="submit" value="ADD USER" /></div>	
+					<div><input type="submit" name="submit" value="ADD MEMBER" /></div>	
 				</div>
 			</form>
         </div>
