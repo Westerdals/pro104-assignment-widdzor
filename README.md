@@ -6,11 +6,11 @@
 
 
 ### Benytt HTML, CSS og JavaScript for å lage en webside som lar brukeren utføre følgende funksjoner:
-1.	Opprette en "arbeidsoppgave" og lagre den i localStorage
-2.	Opprette en "teammedlem" og lagre den i localStorage
-3.	Liste alle arbeidsoppgaver og teammedlemmer som ligger i localStorage
-4.	Tildele et teammedlem til en arbeidsoppgave og lagre "tildelingen" i localStorage
-5.	Liste opp alle tildelinger som ligger i localStorage
+* Håvard - Opprette en "arbeidsoppgave" og lagre den i localStorage 
+* Markus - Opprette en "teammedlem" og lagre den i localStorage
+* Shajji - Liste alle arbeidsoppgaver og teammedlemmer som ligger i localStorage
+* Mads   - Tildele et teammedlem til en arbeidsoppgave og lagre "tildelingen" i localStorage
+* Jørgen - Liste opp alle tildelinger som ligger i localStorage 
 
 ### Koden skal bruke følgende JavaScript funksjoner:
 *	localStorage.setItem
