@@ -10,6 +10,7 @@
 
 <body>
 	<script src="addmember.js"></script>
+	<script src="addTask.js"></script>
 
     <h1 id="title_top">Task Planner</h1>
 
@@ -22,13 +23,23 @@
 						<div><input name="name" placeholder="Oluf Nordlænning" /></div>
 					</label>
 				</div>
-				<div id="entry_submit">
-					<div><input type="submit" name="submit" value="ADD MEMBER" /></div>	
+				<div id="entry_submit_user">
+					<div><input type="submit" name="submit_user" value="ADD MEMBER" /></div>	
 				</div>
 			</form>
         </div>
         <div class="section section_tasks">
 			<h2 class="title_sections">TASKS</h2>
+			<form class="add_entry" onsubmit="addTask(event);this.reset()">
+				<div id="entry_task">
+					<label>Task:
+						<div><input name="task" placeholder="Do something" /></div>
+					</label>
+				</div>
+				<div id="entry_submit_task">
+					<div><input type="submit" name="submit_task" value="ADD TASK" /></div>
+				</div>
+			</form>
         </div>
         <div class="section section_progress">
 			<h2 class="title_sections">PROGRESS</h2>
