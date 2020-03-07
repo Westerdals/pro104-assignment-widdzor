@@ -12,6 +12,7 @@ function listMembers()
 	for(const i in memberList)
 	{
 		const newMember = document.createElement("div");
+		newMember.className = "list_items list_items_member";
 		list.appendChild(newMember);
 		newMember.innerHTML = `${memberList[i].member}`;
 	}

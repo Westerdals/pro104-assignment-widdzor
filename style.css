@@ -4,7 +4,7 @@ body
 }
 #title_top
 {
-	color: #cc2244;
+	color: #2288dd;
     
     text-align: center;
 }
@@ -50,4 +50,22 @@ body
 .section_progress
 {
 	grid-column: 2;
+}
+
+.list_items
+{
+	background-color: #333333;
+	margin: 4px 4px;
+}
+.list_items_member
+{
+	color: #dd2244;
+}
+.list_items_task
+{
+	color: #44dd22;
+}
+.list_items:hover
+{
+	background-color: #111111;
 }
