@@ -8,11 +8,11 @@
 ## Må gjøres:
 ### Benytt HTML, CSS og JavaScript for å lage en webside som lar brukeren utføre følgende funksjoner:
 * Opprette en "arbeidsoppgave" og lagre den i localStorage 
-	\\**_[FERDIG]: Markus(widdzor)_**
+   **_[FERDIG]: Markus(widdzor)_**
 * Opprette en "teammedlem" og lagre den i localStorage
-	\\**_[FERDIG]: Markus(widdzor)_**
+   **_[FERDIG]: Markus(widdzor)_**
 * Liste alle arbeidsoppgaver og teammedlemmer som ligger i localStorage
-	\\**_[FERDIG]: Markus(widdzor)_**
+   **_[FERDIG]: Markus(widdzor)_**
 * Tildele et teammedlem til en arbeidsoppgave og lagre "tildelingen" i localStorage
 * Liste opp alle tildelinger som ligger i localStorage 
 
