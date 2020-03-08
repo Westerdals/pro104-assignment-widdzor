@@ -1,3 +1,4 @@
+### [Link til løsning](https://westerdals.github.io/pro104-assignment-widdzor/)
 ## [FERDIG]
 ### [NOTAT TIL LÆRER]: Markus(widdzor) er den eneste som har skrevet noe av koden i denne løsningen.
 # Arbeidskrav webprosjekt
