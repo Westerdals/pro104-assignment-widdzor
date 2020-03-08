@@ -1,4 +1,5 @@
 function assignList(){
+	
 	var selectMember =  document.getElementById("selectMember")
 	var selectTask = document.getElementById("selectTask")
 	var i = selectMember.selectedIndex;
@@ -6,7 +7,7 @@ function assignList(){
 	const assignMember = JSON.parse(window.localStorage.getItem("members")) || [];
 	assignMember[selectMember.options[i].value].assignments.push(selectTask.options[j].text)
 	window.localStorage.setItem('members', JSON.stringify(assignMember));
-	console.log(assignMember)
+	location.reload();
 }
       var x = document.getElementById("selectTask");
 
@@ -27,5 +28,4 @@ function assignList(){
           v.value = i;
           v.text = assignMember[i].member;
           y.options.add(v, i);
-          console.log(assignMember[i])
 }

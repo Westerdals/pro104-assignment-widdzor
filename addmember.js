@@ -16,4 +16,5 @@ function addMember(event)
 	memberList.push(member);
 
 	window.localStorage.setItem('members', JSON.stringify(memberList));
+	location.reload();
 }

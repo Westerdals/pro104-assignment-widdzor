@@ -14,4 +14,5 @@ function addTask(event)
 	taskList.push(newTask);
 
 	window.localStorage.setItem('tasks', JSON.stringify(taskList));
+	location.reload();
 }
