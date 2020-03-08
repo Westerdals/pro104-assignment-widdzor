@@ -72,3 +72,12 @@ body
 .list_items_assignment{
 	color: #44dd22;
 }
+#assignBtn{
+    text-align: center;
+}
+#labelTask{
+	text-align: center;
+}
+#labelMember{
+	text-align: center;
+}
