@@ -4,7 +4,7 @@ body
 }
 #title_top
 {
-	color: #2288dd;
+	color: #cccc22;
     
     text-align: center;
 }
@@ -65,7 +65,13 @@ body
 {
 	color: #44dd22;
 }
-.list_items:hover
+
+#confirm
 {
-	background-color: #111111;
+	text-align: center;
+}
+
+#overview_list
+{
+	text-align: center;
 }

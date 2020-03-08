@@ -6,11 +6,9 @@ function addMember(event)
 
 	const memberList = JSON.parse(window.localStorage.getItem("members")) || [];
 	
-	const assignments = [];
 	const member =
 		{
-			'member': name,
-			'assignments': assignments
+			'member': name
 		};
 
 	memberList.push(member);

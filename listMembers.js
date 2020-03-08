@@ -15,6 +15,10 @@ function listMembers()
 		newMember.className = "list_items list_items_member";
 		list.appendChild(newMember);
 		newMember.innerHTML = `${memberList[i].member}`;
+
+		newMember.addEventListener("click", selectMember);
+		newMember.addEventListener("mouseover", onHover);
+		newMember.addEventListener("mouseout", onLeave);
 	}
 
 }
