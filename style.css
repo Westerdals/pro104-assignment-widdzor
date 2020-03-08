@@ -9,6 +9,13 @@ body
     text-align: center;
 }
 
+#description
+{
+	text-align: center;
+	margin: 8px 8px;
+	color: #555555;
+}
+
 .container
 {
 	display: grid;
