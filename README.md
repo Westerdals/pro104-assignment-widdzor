@@ -1,3 +1,5 @@
+##[FERDIG]
+###[NOTAT TIL LÆRER]: Markus(widdzor) er den eneste som har skrevet noe av koden i denne løsningen.
 # Arbeidskrav webprosjekt
 
 ### Utvikling av webapplikasjoner i team
@@ -14,7 +16,9 @@
 * Liste alle arbeidsoppgaver og teammedlemmer som ligger i localStorage
    **_[FERDIG]: Markus(widdzor)_**
 * Tildele et teammedlem til en arbeidsoppgave og lagre "tildelingen" i localStorage
+   **_[FERDIG]: Markus(widdzor)_**
 * Liste opp alle tildelinger som ligger i localStorage 
+   **_[FERDIG]: Markus(widdzor)_**
 
 ### Koden skal bruke følgende JavaScript funksjoner:
 *	localStorage.setItem
