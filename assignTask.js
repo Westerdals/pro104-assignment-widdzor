@@ -6,7 +6,7 @@ function assignList(event)
 	const name = document.querySelector("[name='name']").value;
 
 	const assignList = JSON.parse(window.localStorage.getItem("members", "tasks")) || [];
-	console.log(assignList)
+	console.log(assignListldosaldsada)
 
 	/**  const newTask =
 		{
