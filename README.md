@@ -1,5 +1,5 @@
-##[FERDIG]
-###[NOTAT TIL LÆRER]: Markus(widdzor) er den eneste som har skrevet noe av koden i denne løsningen.
+## [FERDIG]
+### [NOTAT TIL LÆRER]: Markus(widdzor) er den eneste som har skrevet noe av koden i denne løsningen.
 # Arbeidskrav webprosjekt
 
 ### Utvikling av webapplikasjoner i team
