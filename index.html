@@ -3,37 +3,56 @@
 <html>
 
 <head>
-    <title>Planner</title>
+    <title>TASK PLANNER</title>
     <meta charset="UTF-8" lang="en">
     <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<script src="adduser.js"></script>
 
-    <h1 id="title_top">Work Planner</h1>
+    <h1 id="title_top">TASK PLANNER</h1>
 
     <div class="container">
         <div class="section section_users">
-			<h2 class="title_sections">USERS</h2>
-			<form class="add_entry" onsubmit="addUser(event)">
+			<h2 class="title_sections list_items_member">MEMBERS</h2>
+			<form class="add_entry" onsubmit="addMember(event);listMembers();this.reset()">
 				<div id="entry_username">
-					<label>Username:
-						<div><input name="username" placeholder="username" /></div>
+					<label>Name:
+						<div><input name="name" placeholder="Oluf" /></div>
 					</label>
 				</div>
-				<div id="entry_submit">
-					<div><input type="submit" name="submit" value="ADD USER" /></div>	
+				<div id="entry_submit_user">
+					<div><input type="submit" name="submit_user" value="ADD MEMBER" /></div>	
 				</div>
+				<div id="member_list"></div>
 			</form>
         </div>
         <div class="section section_tasks">
-			<h2 class="title_sections">TASKS</h2>
+			<h2 class="title_sections list_items_task">TASKS</h2>
+			<form class="add_entry" onsubmit="addTask(event);listTasks();this.reset()">
+				<div id="entry_task">
+					<label>Task:
+						<div><input name="task" placeholder="Do something" /></div>
+					</label>
+				</div>
+				<div id="entry_submit_task">
+					<div><input type="submit" name="submit_task" value="ADD TASK" /></div>
+				</div>
+				<div id="task_list"></div>
+			</form>
         </div>
-        <div class="section section_progress">
-			<h2 class="title_sections">PROGRESS</h2>
+        <div class="section section_overview">
+			<h2 class="title_sections"><span class="list_items_member">OVER</span><span class="list_items_task">VIEW</span></h2>
+			<div id="assignBtn"><button onclick="assignList(event);">ASSIGN TASK</button></div>
+			<div id="assign_list"></div>
         </div>
     </div>
+
+	<script src="addmember.js"></script>
+	<script src="addTask.js"></script>
+	<script src="listMembers.js"></script>
+	<script src="listTasks.js"></script>
+	<script src="assignTask.js"></script>
 </body>
 
 </html>
