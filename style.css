@@ -1,84 +1,187 @@
-body
-{
-	background-color: #222223;
-}
-#title_top
-{
-	color: #cccc22;
-    
-    text-align: center;
+/* Import font  */
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Poppins|Roboto+Condensed&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	/* font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif; */
+	/* font-family: 'Lato', sans-serif; */
+	font-family: 'Poppins', sans-serif;
+	background: #fff;
 }
 
-#description
-{
+body {
+	margin: 3em 2em;
+
+}
+
+h4 {
+	background-color: #eee;
+	font-size: 1.2em;
+	padding-left: 10px;
+}
+
+/* To make the background color of the overview section the same as of member and task */
+span {
+	background: #eee;
+}
+
+/* Page title */
+#title_top {
+	color: #333;
 	text-align: center;
-	margin: 8px 8px;
-	color: #555555;
 }
 
-.container
-{
+/* Page description */
+#description {
+	text-align: center;
+	padding: 1em;
+}
+
+/* Divides the content to three sections */
+.container {
 	display: grid;
-	grid-template-columns: 3;
-	grid-template-rows: 1;
-	
-	grid-column-gap: 8px;
-	
+	grid-template-columns: 1fr 1fr 1fr;
+	/* grid-template-rows: 1; */
+	grid-column-gap: 2em;
 	grid-auto-columns: 1fr;
 	grid-auto-flow: column;
 
 }
 
-.add_entry
-{
-	text-align: center;
-}
-.title_sections
-{
-	text-align: center;
-}
-.section
-{
-	background-color: #555555;
-	border: 2px solid #333333;
-	border-radius: 8px;
-	box-shadow: 3px 3px 10px;
+/*  */
+.section {
+	margin-top: 1.5em;
+	padding: 0px 5px 15px 5px;
+	background: #eee;
+	/* border: 1px solid rgba(202, 202, 202, 0.801); */
+	box-shadow: 1px 1px rgba(9, 30, 66, .25);
+	border-radius: 4px;
 
+	/* box-shadow: 1px 1px 10px; */
+}
+
+
+.title_sections {
+	margin: .5em;
+	background: #eee !important;
+}
+
+.add_entry {
+
+	background: #eee;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+/* Input field of add new member */
+input,
+input[name=name] {
+	cursor: text;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-top: 5px;
+	color: #333;
+
+}
+
+/* Input field of add new task */
+input,
+input[name=task] {
+	cursor: text;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-top: 5px;
+	color: #333;
+}
+
+
+/* Stylinng of the buttons for add member and add task */
+input,
+input[type=submit] {
+	cursor: pointer;
+	font-weight: bold;
+	background-color: rgba(65, 206, 68, 0.7);
+	border: none;
+	color: white;
+	padding: 12px 14px;
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 16px;
+	float: left;
+}
+
+input,
+input[type=submit]:hover {
+	background-color: #eee;
+	border: 1px solid rgba(65, 206, 68, 0.7);
+	color: rgba(65, 206, 68, 0.7);
+	;
+}
+
+.list_title {
 	width: 100%;
-}
-.section_users
-{
-	grid-column: 1;	
-}
-.section_tasks
-{
-	grid-column: 3;
-}
-.section_progress
-{
-	grid-column: 2;
+	font-size: 1.2em;
+	float: left;
+	margin: 5px 0px 5px 0px;
+
+
 }
 
-.list_items
-{
-	background-color: #333333;
+/* For added members and tasks */
+.list_items {
+	width: 90%;
+	float: left;
+	font-size: 1em;
+	margin: 4px 10px 4px 10px;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 1px 1px rgba(9, 30, 66, .25);
+	border-radius: 3px;
+}
+
+/* Hover effect for list items */
+.list_items:hover {
+	/* transform: scale(1.02); */
+	/* border: 1px solid rgb(201, 201, 201); */
+	/* box-shadow: 2px 2px 7px rgba(110, 110, 110, 0.5); */
+	background-color: #ddd;
+
+}
+
+span .list_items_member {
+	background: #eee;
+}
+
+
+
+
+/* #member_list {
+	position: absolute;
+	margin-top: 100px;
+} */
+
+/* 
+.list_items {
+	background: #f3f3f3;
 	margin: 4px 4px;
 }
-.list_items_member
-{
-	color: #dd2244;
-}
-.list_items_task
-{
-	color: #44dd22;
+
+.list_items_member {
+	background: #f3f3f3;
 }
 
-#confirm
-{
+.list_items_task {
+	color: #f3f3f3;
+}
+
+#confirm {
 	text-align: center;
 }
 
-#overview_list
-{
+#overview_list {
 	text-align: center;
-}
+} */
